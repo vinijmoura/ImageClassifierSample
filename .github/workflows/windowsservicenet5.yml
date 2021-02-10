@@ -8,7 +8,7 @@ on:
 
 env:
   SERVICE_NAME: ImageClassifierService
-  OUTPUT_DIRECTORY: c:\Build\
+  OUTPUT_DIRECTORY: c:\Build
 
 jobs:
   build:
