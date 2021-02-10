@@ -28,4 +28,4 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Publish
-      run: dotnet publish --configuration Release --no-build --output ${{  env.OUTPUT_DIRECTORY }}\${{ env.SERVICE_NAME }}
+      run: dotnet publish --configuration Release --output ${{  env.OUTPUT_DIRECTORY }}\${{ env.SERVICE_NAME }}
